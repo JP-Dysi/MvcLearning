@@ -1,0 +1,11 @@
+﻿@{ 
+	ViewBag.Title = "Welcome page";
+}
+<h2>Welcome heading</h2>
+
+<ul>
+	@for(int i = 0; i < ViewBag.Count; i++)
+	{
+		<li>@ViewBag.Message</li>
+	}
+</ul>
